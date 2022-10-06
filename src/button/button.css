@@ -1,0 +1,26 @@
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    width: 130px;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.label-btn {
+    font-size: 14px;
+}
